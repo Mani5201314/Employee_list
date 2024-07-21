@@ -1,0 +1,41 @@
+/* Styles for the landingPage container */
+.landingPage {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for the centered content */
+.centered-content {
+    text-align: center;
+}
+
+/* Styles for the h1 heading */
+.centered-content h1 {
+    font-size: 2.5rem; /* Larger font size for heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+/* Styles for the login options container */
+.loginOption {
+    margin-top: 20px; /* Space above the login options */
+}
+
+/* Styles for the admin login link */
+.Alogin {
+    display: inline-block;
+    padding: 10px 20px; /* Padding around text */
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Hover effect for admin login link */
+.Alogin:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

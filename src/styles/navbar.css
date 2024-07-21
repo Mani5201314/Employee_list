@@ -1,0 +1,30 @@
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Adjust height as needed */
+  background-color: black; /* Dark background color */
+}
+#logo{
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+.links div {
+  margin: 0 10px; /* Space between links */
+}
+
+.links div:last-child {
+  margin-right: 0; /* No margin on the right for the last link */
+}
+
+.links a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Padding around text */
+}
+
+.links a:hover {
+  background-color: #555; /* Darker background on hover */
+  border-radius: 50px;
+}

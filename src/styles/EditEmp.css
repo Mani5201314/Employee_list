@@ -1,0 +1,70 @@
+.EditEmployee {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 2%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.EditEmployee h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.EditEmployee form {
+  display: grid;
+  gap: 15px;
+}
+
+.EditEmployee div {
+  display: flex;
+  flex-direction: column;
+}
+
+.EditEmployee label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.EditEmployee input[type="text"],
+.EditEmployee input[type="email"],
+.EditEmployee input[type="tel"],
+.EditEmployee select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.EditEmployee input[type="text"]:focus,
+.EditEmployee input[type="email"]:focus,
+.EditEmployee input[type="tel"]:focus,
+.EditEmployee select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.EditEmployee button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.EditEmployee button:hover {
+  background-color: #0056b3;
+}
+
+.EditEmployee .error {
+  color: red;
+  font-size: 14px;
+}
